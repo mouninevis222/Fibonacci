@@ -3,7 +3,7 @@ module.exports = {
   getNumber,
   getSequence
 }
-
+ 
 /**
  * Get a list up to the `nth` integer in the Fibonacci sequence (inclusive).
  *
