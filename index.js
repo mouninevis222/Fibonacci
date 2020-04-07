@@ -16,6 +16,13 @@ function getList(nth) {
 }
 
 /**
+ * Get a list up to the `nth` integer in the Fibonacci sequence (inclusive).
+ *
+ * @param {number} nth The number to get a list up to (inclusive)
+ * @returns {Array<number>}
+ */
+
+/**
  * Get the `nth` integer in the Fibonacci sequence.
  *
  * @param {number} nth A number indicating which number in the sequence to
