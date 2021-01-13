@@ -20,4 +20,4 @@ jobs:
 
     steps:
     - run: |
-          echo "${{ github.repository_owner }}"
+          echo "${{ github.repository_owner.string.outputs.lowercase }}"
