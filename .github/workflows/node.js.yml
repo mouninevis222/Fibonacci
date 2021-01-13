@@ -11,5 +11,5 @@ on:
 
 jobs:
   build:
-    echo "${{ github.repository_owner.string.outputs.lowercase }}"
     echo "${{ steps.string.outputs.lowercase }}"
+#     echo "${{ github.repository_owner.string.outputs.lowercase }}"
